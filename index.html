@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Main page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -34,12 +37,21 @@
         </div>
     </div>
     <div class="container">
-        <div class="catalogs">
-            <a href="" class="margin_catalogs"><img src="img/girl_catalog.jpg" alt=""></a>
-            <a href="" class="margin_catalogs"><img src="img/man_catalog.jpg" alt=""></a>
-            <a href="" class="margin_catalogs"><img src="img/child_catalog.jpg" alt=""></a>
-            <a href=""><img src="img/trands_catalog.jpg" alt=""></a>
-        </div>
+        <section class="catalogs">
+            <a href="" class="margin_catalogs"><img src="img/girl_catalog.jpg" alt="photo">
+                <p class="catalog_text_women">30% OFF <br> <span class="catalog_forwomen">FOR WOMEN</span></p>
+            </a>
+            <a href="" class="margin_catalogs"><img src="img/man_catalog.jpg" alt="photo">
+                <p class="catalog_text_men">HOT DEAL <br> <span class="catalog_forwomen">FOR MEN</span></p>
+            </a>
+            <a href="" class="margin_catalogs"><img src="img/child_catalog.jpg" alt="photo">
+                <p class="catalog_text_kids">NEW ARRIVALS <br> <span class="catalog_forwomen">FOR KIDS</span></p>
+            </a>
+            <a href="" class="position_luxury"><img src="img/trands_catalog.jpg" alt="photo">
+                <p class="catalog_text_luxury">LUXURIOUS & TRENDY <br> <span class="catalog_forwomen">ACCESORIES</span>
+                </p>
+            </a>
+        </section>
         <div class="fetured_items">
             <p class="header_items">Fetured Items</p>
             <p class="pg_items">Shop for items based on what we featured in this week</p>
@@ -92,29 +104,32 @@
             <a href="" class="browse_catalog">Browse All Product</a>
         </div>
     </div>
-    <div class="benefits_background">
+    <section class="benefits_background">
         <div class="container benefits">
             <div class="delivery">
                 <img src="img/delivery.svg" class="img_delivery" alt="">
                 <p class="hd_delivery">Free Delivery</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
             <div class="delivery">
                 <img src="img/sales.svg" class="img_delivery" alt="">
                 <p class="hd_delivery">Sales & discounts</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
             <div class="delivery">
                 <img src="img/quality.svg" class="img_delivery" alt="">
                 <p class="hd_delivery">Quality assurance</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion with
+                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                    with
                     extensive models.</p>
             </div>
         </div>
-    </div>
-    <div class="subcribe">
+    </section>
+    <section class="subcribe">
         <div class="container subscribe_blocks">
             <div class="subscribe_quote">
                 <img src="img/photo_subscribe.png" class="photo_subscribe" alt="photo">
@@ -125,12 +140,14 @@
                 <p class="pg_input_subscribe"><span class="bold_pg_input">SUBSCRIBE</span>
                     <br>FOR OUR NEWLETTER AND PROMOTION
                 </p>
-                <input type="text" class="input_subscribe">
-                <button class="button_subscribe">Subscribe</button>
+                <form action="#" class="form_subscribe">
+                    <input type="email" class="input_subscribe" placeholder="Your Email" required>
+                    <button type="submit" class="button_subscribe">Subscribe</button>
+                </form>
             </div>
         </div>
-    </div>
-    <div class="footer">
+    </section>
+    <footer class="footer">
         <div class="container footer_blocks">
             <div class="copyright_footer">
                 <p class="pg_footer">&copy; 2022 Brand All Rights Reserved.</p>
@@ -142,7 +159,7 @@
                 <a href=""><img src="img/twitter.svg" alt=""></a>
             </div>
         </div>
-    </div>
+    </footer>
 </body>
 
 </html>
