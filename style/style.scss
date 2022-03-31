@@ -1,0 +1,641 @@
+$main-color: #F16D7F;
+
+@mixin registration_paragraph{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+@mixin registration_podtext{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #222222;
+}
+
+.panel_icons{
+    padding-top: 18px;
+    padding-bottom: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_logo{
+    margin-right: 41px;
+}
+
+.logo_hover{
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    position: relative;
+}
+
+.logo_hover svg{
+    fill: #F8F8F8;
+}
+
+.logo_hover svg:hover{
+    fill: $main-color;
+}
+
+.counter{
+    position: absolute;
+    background-color: $main-color;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -22px;
+    right: -10px;
+    color: #E1E1E1;
+    font-family: lato;
+}
+
+.margin_second_menu{
+    margin-right: 33px;
+}
+
+.brand{
+    background-color: #F1E4E6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pg_brand{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.pg_fashion_brand{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 58px;
+    color: #222222;
+}
+
+.color_fashion{
+    color: $main-color;
+}
+
+.border_pg_brand{
+    border-left: solid 15px $main-color;
+    padding-left: 16px;
+    margin-top: 290px;
+    margin-right: 150px;
+}
+
+.catalogs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 65px;
+}
+
+.margin_catalogs{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.catalog_text_women{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 105px;
+    left: 103px;
+}
+
+.catalog_text_men{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 105px;
+    left: 125px;
+}
+
+.catalog_text_kids{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 105px;
+    left: 123px;
+}
+
+.position_luxury{
+    position: relative;
+}
+
+.catalog_text_luxury{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 65px;
+    left: 491px;
+}
+
+.catalog_forwomen{
+    color: $main-color;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header_items{
+    margin-top: 96px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+}
+
+.pg_items{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+}
+
+.bread_crumbs{
+    background-color: #F8F3F4;
+}
+
+.bc_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bc_header{
+    padding: 60px 0px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $main-color;
+}
+
+.breadcrumb_ol{
+    display: flex;
+    list-style-type:none;
+}
+
+.breadcrumb-item_margin{
+    margin-right: 5px;
+}
+
+.bc_home{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.breadcrumb_a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.bc_new_arrivals{
+    color: $main-color;
+}
+
+.breadcrumb_a::before{
+    content: " / " ;
+}
+
+.filters{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 51px;
+}
+
+.filters_paragraph{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.filters_paragraph_first{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.filters_paragraph_margin{
+    margin-right: 28px;
+}
+
+.filters_paragraph_margin_first{
+    margin-right: 325px;
+    margin-left: -425px;
+}
+
+.filters_a{
+    color: #6F6E6E;
+    text-decoration: none;
+}
+
+.content{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.article{
+    margin-bottom: 30px;
+    background: #F8F8F8;
+}
+
+.name_article, .pg_article, .price_article{
+    padding-left: 18px;
+}
+
+.name_article{
+    padding-top: 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+.pg_article{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    max-width: 360px;
+    padding-top: 12px;
+    max-width: 300px;
+}
+
+.price_article{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $main-color;
+    padding-top: 18px;
+    padding-bottom: 20px;
+}
+
+.view_catalog{
+    margin-top: 63px;
+    text-align: center;
+    margin-bottom: 103px;
+}
+
+.browse_catalog{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    text-decoration: none;
+    border: 1px solid #FF6A6A;
+    padding: 14px 38.5px;
+}
+
+.browse_catalog:hover{
+    color: #E1E1E1;
+    background-color: $main-color;
+}
+
+.pagination{
+    border-color: #5D5D5D;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 300px;
+    padding: 14.5px 0 15.5px 0;
+    border: 1px solid #5D5D5D;
+}
+
+.padding_pagination{
+    display: flex;
+    justify-content: center;
+    padding: 34px 0 68px;
+}
+
+.page-link{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D5D5D;
+}
+
+.page-link_margin{
+    margin-right: 25px;
+}
+
+.benefits_background{
+    background: #222224;
+}
+
+.benefits{
+    padding-top: 103px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery{
+    text-align: center;
+}
+
+.hd_delivery{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin-top: 28px;
+}
+
+.pg_delivery{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    color: #FBFBFB;
+    max-width: 360px;
+    margin-top: 16px;
+}
+.subscribe{
+    background-image: url(../img/back_subscribe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 449px;
+    background-size: 100% 100%;
+}
+
+.subscribe_blocks{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.photo_subscribe{
+    padding-top: 86px;
+}
+
+.pg_subscribe{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #222224;
+    max-width: 360px;
+    padding-top: 40px;
+    padding-bottom: 126px;
+}
+
+.pg_input_subscribe{
+    font-family: Lato;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    padding-top: 150px;
+    padding-right: 125px;
+    margin-bottom: 1em;
+}
+
+.bold_pg_input{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.input_subscribe{
+    color: #000000;
+    padding: 20px;
+    border: none;
+    background-color: #E1E1E1;
+    border-radius: 25px 0 0 25px;
+}
+
+.input_subscribe::placeholder{
+    color: #222224;
+}
+
+.form_subscribe{
+    display: flex;
+    justify-content: center;
+    padding-right: 125px;
+}
+
+.button_subscribe{
+    padding: 20px;
+    background-color: $main-color;
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;
+}
+
+.footer{
+    background-color: #222224;
+}
+
+.footer_blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pg_footer{
+    padding: 30px 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.footer_icons{
+    padding: 24px 0;
+    display: flex;
+}
+
+.social_icon{
+    height: 32px;
+    width: 32px;
+    background-color: #E1E1E1;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social_icon:hover{
+    background-color: $main-color;
+    color: #E1E1E1;
+}
+
+.padding_icon{
+    margin-right: 8px;
+}
+
+.registration{
+    @include flexbox();
+    padding-top: 64px;
+    padding-bottom: 96px;
+
+    &_paragraph{
+        @include registration_paragraph();
+        &_margin{
+            margin-top: 35px;
+        }
+    }
+    &_input{
+        @include registration_podtext();
+        padding: 12.5px 250px 16px 17px;
+        margin-top: 21px;
+        border: 1px solid #a4a4a4;
+        max-width: 360px;
+    }
+    &_radio{
+        border: 1px solid #A4A4A4;
+        box-sizing: border-box;
+        width: 17px;
+        height: 17px;
+        margin: 31px 10px 0 0;
+
+        &_margin{
+            margin-left: 20px;
+        }
+        &_gender{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            color: #000000;
+        }
+    }
+    &_podtext{
+        @include registration_podtext();
+        max-width: 360px;
+    }
+    &_button{
+        margin-top: 39px;
+        padding: 16px 29px 17px 29px;
+        background-color: $main-color;
+        border: none;
+        color: #ffffff;
+
+        &_text{
+            margin-right: 20px;
+        }
+    }
+    &_perks{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-left: 75px;
+    }
+    &_list{
+        list-style: url(../img/check-solid.svg);
+        margin-top: 21px;
+        
+        &_perk{
+            margin-top: 16px;
+        }
+    }
+}
