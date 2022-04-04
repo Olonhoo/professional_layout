@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Main page</title>
+    <title>Catalog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -59,106 +59,74 @@
             </div>
         </div>
     </div>
-    <div class="brand">
-        <div class="container brand_box">
-            <img src="img/man_brand v2.png" class="man" alt="">
-            <div>
-                <p class="border_pg_brand"> <span class="pg_brand">THE BRAND</span>
-                    <br> <span class="pg_fashion_brand">OF LUXERIOUS <span class="color_fashion">FASHION</span></span>
+    <section class="bread_crumbs">
+        <div class="container bc_flex">
+            <div class="bc_firstpart">
+                <h1 class="bc_header">
+                    SHOPPING CART
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="cart_content container">
+        <div class="cart_content_articles">
+            <div class="cart_content_articles_product">
+                <div><img class="cart_content_articles_product_photo" src="img/cart_photo.jpg" alt="photo"></div>
+                <div>
+                    <p class="cart_content_articles_product_paragraph">MANGO PEOPLE T-SHIRT</p>
+                    <ul class="cart_content_articles_product_ul">
+                        <li class="cart_content_articles_product_list">Price: <span class="color_fashion">$300</span>
+                        </li>
+                        <li class="cart_content_articles_product_list">Color: Red</li>
+                        <li class="cart_content_articles_product_list">Size: Xl</li>
+                        <li class="cart_content_articles_product_list">Quantity: </li>
+                    </ul>
+                </div>
+                <a href="" class="cart_content_articles_product_cancel"><svg width="18" height="18" viewBox="0 0 18 18"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg>
+                </a>
+            </div>
+            <div class="cart_content_articles_product cart_content_articles_product_margin">
+                <div><img class="cart_content_articles_product_photo" src="img/cart_photo2.jpg" alt="photo"></div>
+                <div>
+                    <p class="cart_content_articles_product_paragraph">MANGO PEOPLE T-SHIRT</p>
+                    <ul class="cart_content_articles_product_ul">
+                        <li class="cart_content_articles_product_list">Price: <span class="color_fashion">$300</span>
+                        </li>
+                        <li class="cart_content_articles_product_list">Color: Red</li>
+                        <li class="cart_content_articles_product_list">Size: Xl</li>
+                        <li class="cart_content_articles_product_list cart_content_articles_product_list_block">
+                            Quantity: </li>
+                    </ul>
+                </div>
+                <a href="" class="cart_content_articles_product_cancel"><svg width="18" height="18" viewBox="0 0 18 18"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg>
+                </a>
+            </div>
+            <div class="cart_content_articles_buttons">
+                <a class="cart_content_articles_buttons_key" href="#">CLEAR SHOPPING CART</a>
+                <a class="cart_content_articles_buttons_key" href="#">CONTINUE SHOPPING</a>
+            </div>
+        </div>
+        <div class="cart_content_articles">
+            <p class="cart_content_articles_data">SHIPPING ADRESS</p>
+            <input class="cart_content_articles_input" type="text" placeholder="Bangladesh" required>
+            <input class="cart_content_articles_input" type="text" placeholder="State" required>
+            <input class="cart_content_articles_input" type="text" placeholder="Postcode / Zip" required>
+            <a href="#" class="cart_content_articles_a">GET A QUOTE</a>
+            <div class="cart_content_articles_checkout">
+                <p class="cart_content_articles_checkout_subtt">SUB TOTAL <span class="color_fashion">$900</span></p>
+                <p class="cart_content_articles_checkout_grandtt">GRAND TOTAL <span class="color_fashion">$900</span>
                 </p>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <section class="catalogs">
-            <a href="" class="margin_catalogs"><img src="img/girl_catalog.jpg" alt="photo">
-                <p class="catalog_text_women">30% OFF <br> <span class="catalog_forwomen">FOR WOMEN</span></p>
-            </a>
-            <a href="" class="margin_catalogs"><img src="img/man_catalog.jpg" alt="photo">
-                <p class="catalog_text_men">HOT DEAL <br> <span class="catalog_forwomen">FOR MEN</span></p>
-            </a>
-            <a href="" class="margin_catalogs"><img src="img/child_catalog.jpg" alt="photo">
-                <p class="catalog_text_kids">NEW ARRIVALS <br> <span class="catalog_forwomen">FOR KIDS</span></p>
-            </a>
-            <a href="" class="position_luxury"><img src="img/trands_catalog.jpg" alt="photo">
-                <p class="catalog_text_luxury">LUXURIOUS & TRENDY <br> <span class="catalog_forwomen">ACCESORIES</span>
-                </p>
-            </a>
-        </section>
-        <div class="fetured_items">
-            <p class="header_items">Fetured Items</p>
-            <p class="pg_items">Shop for items based on what we featured in this week</p>
-        </div>
-        <div class="content">
-            <div class="article">
-                <img src="img/featured_1.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-            <div class="article">
-                <img src="img/featured_2.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-            <div class="article">
-                <img src="img/featured_3.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-            <div class="article">
-                <img src="img/featured_4.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-            <div class="article">
-                <img src="img/featured_5.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-            <div class="article">
-                <img src="img/featured_6.jpg" alt="">
-                <p class="name_article">ELLERY X M'O CAPSULE</p>
-                <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
-                    cool Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price_article">$52.00</p>
-            </div>
-        </div>
-        <div class="view_catalog">
-            <a href="catalog.html" class="browse_catalog">Browse All Product</a>
-        </div>
-    </div>
-    <section class="benefits_background">
-        <div class="container benefits">
-            <div class="delivery">
-                <img src="img/delivery.svg" class="img_delivery" alt="">
-                <p class="hd_delivery">Free Delivery</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with
-                    extensive models.</p>
-            </div>
-            <div class="delivery">
-                <img src="img/sales.svg" class="img_delivery" alt="">
-                <p class="hd_delivery">Sales & discounts</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with
-                    extensive models.</p>
-            </div>
-            <div class="delivery">
-                <img src="img/quality.svg" class="img_delivery" alt="">
-                <p class="hd_delivery">Quality assurance</p>
-                <p class="pg_delivery">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with
-                    extensive models.</p>
+                <button class="cart_content_articles_checkout_btn" href="#">PROCEED TO CHECKOUT</button>
             </div>
         </div>
     </section>
