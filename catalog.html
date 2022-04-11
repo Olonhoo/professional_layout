@@ -79,35 +79,137 @@
             </div>
         </div>
     </section>
-    <div class="filters">
+    <div class="filters container">
         <div class="filters_paragraph_margin_first">
-            <a href="#" class="filters_a">
-                <span class="filters_paragraph">FILTER</span>
-                <i class="fa-solid fa-arrow-down-wide-short"></i>
-            </a>
+            <details open class="filters_details">
+                <summary class="filters_sort">
+                    <span class="filters_paragraph_first_filter">FILTER
+                        <i class="fa-solid fa-arrow-down-wide-short"></i></span>
+                </summary>
+                <div class="filters_overlay">
+                    <details>
+                        <summary class="filters_sort filters_sort_border"><span
+                                class="filters_paragraph_first_category">CATEGORY</span>
+
+                        </summary>
+                        <ul class="filters_list">
+                            <li><button class="filters_list_button">Accessories</button></li>
+                            <li><button class="filters_list_button">Bags</button></li>
+                            <li><button class="filters_list_button">Denim</button></li>
+                            <li><button class="filters_list_button">Hoodies & Sweatshirts</button></li>
+                            <li><button class="filters_list_button">Jackets & Coats</button></li>
+                            <li><button class="filters_list_button">Polos</button></li>
+                            <li><button class="filters_list_button">Shirts</button></li>
+                            <li><button class="filters_list_button">Shoes</button></li>
+                            <li><button class="filters_list_button">Sweaters & Knits</button></li>
+                            <li><button class="filters_list_button">T-Shirts</button></li>
+                            <li><button class="filters_list_button">Tanks</button></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary class="filters_sort filters_sort_border"><span
+                                class="filters_paragraph_first_brand">BRAND</span>
+                        </summary>
+                        <ul class="filters_list">
+                            <li><button class="filters_list_button">Lorem</button></li>
+                            <li><button class="filters_list_button">Lorem</button></li>
+                            <li><button class="filters_list_button">Lorem</button></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary class="filters_sort filters_sort_border"><span
+                                class="filters_paragraph_first_designer">DESIGNER</span>
+                        </summary>
+                        <ul class="filters_list">
+                            <li><button class="filters_list_button">Lorem</button></li>
+                            <li><button class="filters_list_button">Lorem</button></li>
+                            <li><button class="filters_list_button">Lorem</button></li>
+                        </ul>
+                    </details>
+                </div>
+            </details>
         </div>
-        <div class="filters_paragraph_margin">
-            <a href="#" class="filters_a">
-                <span class="filters_paragraph">TRENDING NOW</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </a>
+
+        <div class="filters_subsort">
+            <details>
+                <summary class="filters_subsort_category"><span class="filters_paragraph">TRENDING NOW
+                        <i class="fa-solid fa-angle-down"></i></span>
+                </summary>
+                <div class="filters_subsort_overlay">
+                    <ul class="filters_list">
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary class="filters_sort"><span class="filters_paragraph">SIZE
+                        <i class="fa-solid fa-angle-down"></i></span>
+                </summary>
+                <div class="filters_subsort_overlay">
+                    <ul class="filters_list">
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">XS</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">S</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">M</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">L</button>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary class="filters_sort"><span class="filters_paragraph">PRICE
+                        <i class="fa-solid fa-angle-down"></i></span>
+                </summary>
+                <div class="filters_subsort_overlay">
+                    <ul class="filters_list">
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                        <li>
+                            <button class="filters_subsort_button"></button>
+                            <button class="filters_list_button">Lorem</button>
+                        </li>
+                    </ul>
+                </div>
+            </details>
         </div>
-        <div class="filters_paragraph_margin">
-            <a href="#" class="filters_a">
-                <span class="filters_paragraph">SIZE</span>
-                <i class="fa-solid fa-angle-down"></i>
-            </a>
-        </div>
-        <a href="#" class="filters_a">
-            <div class="filters_paragraph_margin">
-                <span class="filters_paragraph">PRICE</span>
-                <i class="fa-solid fa-angle-down"></i>
-        </a>
-    </div>
     </div>
     <div class="container">
         <section class="content">
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/featured_1.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -115,6 +217,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/catalog_article2.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -122,6 +230,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/featured_3.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -129,6 +243,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/featured_4.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -136,6 +256,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/catalog_article5.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -143,6 +269,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/featured_6.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -150,6 +282,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/catalog_article7.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -157,6 +295,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/catalog_article8.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
@@ -164,6 +308,12 @@
                 <p class="price_article">$52.00</p>
             </div>
             <div class="article">
+                <div class="article_overlay">
+                    <button type="button" class="article_overlay_add">
+                        <img class="article_overlay_add_click" src="img/cart_add.svg" alt="add">
+                        <span class="article_overlay_add_click">Add to Cart</span>
+                    </button>
+                </div>
                 <img src="img/catalog_article9.jpg" alt="">
                 <p class="name_article">ELLERY X M'O CAPSULE</p>
                 <p class="pg_article">Known for her sculptural takes on traditional tailoring, Australian arbiter of
