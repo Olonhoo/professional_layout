@@ -193,6 +193,10 @@
   color: #F16D7F;
 }
 
+.main_nav--close {
+  display: none;
+}
+
 .brand {
   background-color: #F1E4E6;
   display: -webkit-box;
@@ -220,12 +224,12 @@
   color: #222222;
 }
 
-.pg_fashion_brand {
+.sub_pg_brand {
   font-family: Lato;
   font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 58px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
   color: #222222;
 }
 
@@ -593,6 +597,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.article_mobile {
+  display: none;
 }
 
 .name_article,
@@ -1023,6 +1031,16 @@
           justify-content: space-between;
 }
 
+.cart_content_flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .cart_content_articles {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1222,5 +1240,255 @@
   background-color: #575757;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 735px;
+  }
+  .pg_brand {
+    font-size: 44px;
+    line-height: 53px;
+  }
+  .brand_box {
+    height: 367px;
+    padding-left: 125px;
+  }
+  .border_pg_brand {
+    margin-top: 130px;
+    margin-right: 75px;
+  }
+  .second_menu {
+    padding-right: 41px;
+  }
+  .catalog_img {
+    background-size: cover;
+  }
+  .margin_catalogs {
+    width: 33%;
+  }
+  .catalog_img {
+    width: 100%;
+  }
+  .benefits {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 46px;
+    padding-bottom: 46px;
+  }
+  .delivery_margin {
+    margin-bottom: 50px;
+  }
+  .subscribe_blocks {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .pg_input_subscribe {
+    padding-right: 0;
+  }
+  .form_subscribe {
+    padding-right: 0;
+  }
+  .input_subscribe_block {
+    margin-bottom: 140px;
+  }
+  .pg_input_subscribe {
+    padding-top: 0;
+  }
+  .catalog_text_women {
+    top: 65px;
+    left: 45px;
+  }
+  .catalog_text_men {
+    top: 65px;
+    left: 68px;
+  }
+  .catalog_text_kids {
+    top: 65px;
+    left: 62px;
+  }
+  .catalog_text_luxury {
+    top: 37px;
+    left: 286px;
+  }
+  .view_catalog {
+    margin-bottom: 63px;
+    margin-top: 32px;
+  }
+  .article_mobile {
+    display: block;
+  }
+  .filters_paragraph {
+    padding-left: 0px;
+  }
+  .filters_subsort_overlay {
+    margin-left: 0px;
+  }
+  .filters {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cart_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .cart_content_articles_product {
+    -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+            box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    margin-top: 59px;
+  }
+  .cart_content_articles_buttons {
+    padding: 0 100px 0 100px;
+  }
+  .registration_perks {
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 22px;
+  }
+  .registration_paragraph_table {
+    margin-top: 32px;
+  }
+  .registration_list {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .logo_hover_mobile {
+    display: none;
+  }
+  .second_menu {
+    padding-right: 0px;
+  }
+  .first_menu {
+    padding-left: 16px;
+  }
+  .man {
+    display: none;
+  }
+  .border_pg_brand {
+    width: 350px;
+    margin-top: 15px;
+  }
+  .brand_box {
+    padding-left: 56px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .margin_catalogs {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .catalog_text_women {
+    top: 100px;
+    left: 110px;
+  }
+  .catalog_text_men {
+    top: 100px;
+    left: 130px;
+  }
+  .catalog_text_kids {
+    top: 100px;
+    left: 123px;
+  }
+  .catalog_text_luxury {
+    top: 35px;
+    left: 92px;
+    width: 200px;
+  }
+  .catalog_text_luxury_mobile {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 111px;
+  }
+  .catalog_text_luxury_mobile_img {
+    height: 111px;
+  }
+  .header_items {
+    margin-top: 64px;
+  }
+  .content {
+    -ms-flex-wrap: none;
+        flex-wrap: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bc_flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bc_secondpart {
+    margin-bottom: 46px;
+  }
+  .bc_header {
+    padding: 24px 0 32px 0;
+  }
+  .filter_mobile {
+    display: none;
+  }
+  .filters_paragraph {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .footer_blocks {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .pg_footer {
+    padding: 0 0 9px 0;
+  }
+  .footer_icons {
+    padding: 43px 0 68px 0;
+  }
+  .registration {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .registration_perks {
+    margin-left: 9px;
+    margin-top: 40px;
+  }
+  .registration_data {
+    margin-left: 9px;
+  }
+  .registration_input {
+    width: 90px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
